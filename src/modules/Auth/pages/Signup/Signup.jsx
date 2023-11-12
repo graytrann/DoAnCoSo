@@ -66,7 +66,7 @@ export default function Signup() {
     <div className={`${AuthStyles.auth}`}>
       <div className={`${AuthStyles.auth_container}`}>
         <div className={`${AuthStyles.auth_container_form}`}>
-          <h1>SIGN UP !</h1>
+          <h1>ĐĂNG KÝ</h1>
           <form onSubmit={handleSubmit(onSubmit, onError)}>
             {/* FULL NAME */}
             <div className={`${AuthStyles.form_input}`}>
