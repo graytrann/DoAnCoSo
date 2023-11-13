@@ -1,0 +1,29 @@
+.carousel {
+  &_container {
+    position: relative;
+    overflow: hidden;
+    &_bg {
+      height: 600px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("https://images.musement.com/cover/0134/94/thumb_13393903_cover_header.jpeg?w=1200&h=630&q=95&fit=crop");
+      filter: blur(3px);
+    }
+    &_player {
+      height: 100%;
+      position: absolute;
+      top: 30%;
+      left: 55%;
+      img {
+        height: 70%;
+      }
+    }
+    &_search {
+      height: 100%;
+      position: absolute;
+      top: 45%;
+      left: 20%;
+    }
+  }
+}
