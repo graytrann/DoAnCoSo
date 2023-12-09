@@ -5,6 +5,7 @@ import Home from "./modules/Home";
 import MainLayout from "./layout/MainLayout";
 import Pitch from "./modules/Pitch";
 import Detail from "./modules/Detail";
+import Profile from "./modules/Profile";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="pitch" element={<Pitch />} />
           <Route path="detail/:id" element={<Detail />} />
+          <Route path="profile" element={<Profile />} />
         </Route>
         {/* TRANG ĐĂNG KÝ */}
         <Route path="/sign-up" element={<Signup />} />
